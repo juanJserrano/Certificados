@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap'); /* estilo bold o negrita*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap'); /* estilo Ligth o delgada*/
+/* .Flex{
+    display: flex;
+    width: 1000px;
+    height:600px;
+    background-color: aqua;
+    margin: auto;
+    margin-top:5em;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    padding: 0.5em;
+   
+}
+.Flex>div{
+    background-color: rgb(157, 240, 164);
+     display: block;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+    position: relative;
+    word-wrap: break-word;
+
+}
+.Flex>img{
+    align-content: center;
+    text-align: center;
+    position: absolute;
+    width: 1000px;
+    height:600px;
+}
+b{
+    font-size:30px
+}
+.Titulos{
+    position: fixed;
+    top: 6em;
+    width: 60%;
+   
+}
+.firma{
+    bottom:6em;
+} */
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgba(212,228,239,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(212,228,239,1)), color-stop(100%, rgba(134,174,204,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1 );
+}
+.contenedor{
+
+    border: 1px solid red;
+    width: 60%;
+    height: 1000px;
+    position: relative;
+    overflow: hidden;
+    margin: 50px auto;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.texto{
+    position: relative;
+}
